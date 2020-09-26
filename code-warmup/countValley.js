@@ -15,7 +15,7 @@ _           /\_
    \/  \/\/
 */
 
-function countingValleys(steps, path) {
+function countValleys(steps, path) {
   let valleyCount = 0;
   let altitude = 0;
   const pathList = path.split('');
@@ -31,3 +31,6 @@ function countingValleys(steps, path) {
   }
   return valleyCount
 }
+
+
+module.exports = countValleys;
